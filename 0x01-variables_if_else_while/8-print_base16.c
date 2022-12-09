@@ -1,28 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - Entry
+ * Return: Always 1
  */
-
 int main(void)
-{	
-	char c;
-	
-	int d;
-
-	c = 'a';
-	d = 0;
-	while
-		(d < 10) {
-			putchar(d + '0');
-			d++;
-		}
-	while
-		(c <= 'f') {
-			putchar(c);
-			c++;
-		}
-	putchar('\n');
-	return (0);
-}	
+{
+write(1,"and that piece of art is useful\"
+ -Dora Korpar,2015-10-19\n",59);
+} 
